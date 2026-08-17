@@ -13,12 +13,23 @@ Every effective AI prompt — regardless of the tool, task, or modality — runs
 | [T.R.A.C.K.](track.md) | Control inside the R-stage: Technique, Reasoning Chain, Abstraction First, Constraint Acknowledgment, Knowledge Injection |
 | [S.A.F.E.](safe.md) | Quality gates inside the E-stage: Specifications, Avoidance, Fidelity, Efficiency |
 
+## Recipes
+
+Real-world prompts, built on C.O.R.E.:
+
+| Recipe | What it does |
+|--------|--------------|
+| [Vibe-Coding an App](recipes/vibe-coding.md) | Build an app from a description — Function, Vibe, Style |
+| [Grounded Research](recipes/grounded-research.md) | Research that cites only your sources (Notebook LM) |
+| [Inbox and Morning Brief](recipes/inbox-and-brief.md) | Emails in your voice + a daily brief (Gmail + Gemini) |
+
 ## How to use
 
 1. Start with **C.O.R.E.** — it is the base layer for every prompt.
 2. Reach for **F.O.R.M.** when "what do I want" isn't specific enough.
 3. Reach for **T.R.A.C.K.** when you need to control *how* the AI thinks.
 4. Run **S.A.F.E.** before you ship any output.
+5. Steal a [recipe](recipes/) when you need a starting point.
 
 They're power tools, not requirements — not every prompt needs every nested acronym.
 
